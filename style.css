@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,400;0,500;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-family: "Poppins";
+    text-decoration: none;
+    color:#fff;
+}
+
+body {
+    background: linear-gradient(to right, #ed8f83,#f56e5b, #fb553f);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 140px 20px 90px;
+}
+
+.cnt-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ccl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 40px;
+    background-color: #fff;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #c51c10;
+}
+
+.logo {
+    font-size: 1.1rem;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 7px;
+
+    margin-left: 15px;
+
+    color: #ff3c2e;
+    background-color: #fff;
+}
+
+.btn-first{
+    margin-left: 60px;
+}
+
+.btn-l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    border-radius: 7px;
+    margin: 0 0 10px 0;
+    padding: 9px 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #c51c10;
+    background-color: #fff;
+}
+
+.shop {
+    margin: 40px 0;
+    width: 100px;
+    padding: 5px 10px;
+}
+
+.li-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.lnk-header {
+    margin-left: 70px;
+
+    font-size: 0.95em;
+    color: #fff;
+}
+
+.pt-e{
+    padding: 40px 0;
+    width: 40%;
+}
+.pt-d {
+    width: 60%;
+}
+
+.pt-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctn-main {
+    display: flex;
+    padding: 0 90px;
+}
+
+.h2-main {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.p-main {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #fce8e7;
+}
+
+.img-card, .preco-card {
+    width: 50%;
+}
+
+.preco-card p {
+    color: #c51c10;
+}
+
+
+.preco-card-valores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.valor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.68rem;
+    padding: 2px;
+    width: 35px;
+    flex-wrap: wrap;
+    color: #c51c10;
+    border-radius: 4px;
+}
+
+.first-last {
+    color: #fff;
+    background-color: #c51c10;
+}
